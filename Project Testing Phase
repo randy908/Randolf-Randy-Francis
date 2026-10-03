@@ -1,1 +1,216 @@
 Project Testing Phase
+Legalease – Project Testing Phase
+
+The Project Testing Phase is the stage where the completed Legalease system is checked to ensure that all features work correctly, securely, and according to the project requirements.
+
+1. Objective
+
+The main objectives of testing are:
+
+Verify that all modules work correctly.
+Identify and fix errors and bugs.
+Check the accuracy and relevance of system responses.
+Test database operations.
+Verify security and user authentication.
+Check the usability and performance of the application.
+Ensure that the system meets the planned requirements.
+2. Testing Process
+
+The testing process follows these steps:
+
+Developed System
+       ↓
+Test Planning
+       ↓
+Unit Testing
+       ↓
+Integration Testing
+       ↓
+Functional Testing
+       ↓
+Security Testing
+       ↓
+Usability Testing
+       ↓
+Performance Testing
+       ↓
+Bug Fixing
+       ↓
+Final Validation
+3. Types of Testing
+A. Unit Testing
+
+Individual modules are tested separately.
+
+Examples:
+
+Login module
+Search module
+AI assistant
+Document generator
+Database functions
+
+Purpose: To ensure that each individual component works correctly.
+
+B. Integration Testing
+
+Different modules are tested together.
+
+For example:
+
+User Question
+     ↓
+Frontend
+     ↓
+Backend
+     ↓
+AI Module
+     ↓
+Database
+     ↓
+Response
+     ↓
+Frontend
+
+This verifies that information flows correctly between different parts of the system.
+
+C. Functional Testing
+
+Functional testing checks whether the application performs the functions specified in the requirements.
+
+Test	Expected Result
+Register with valid details	Account created
+Login with valid credentials	Dashboard displayed
+Login with invalid credentials	Error message displayed
+Search legal topic	Relevant information displayed
+Submit legal question	Appropriate general response displayed
+Select document template	Template opened
+Enter valid document details	Document generated
+Open resource	Appropriate official resource displayed
+D. AI Response Testing
+
+Since Legalease uses an AI-assisted legal-information feature, different types of questions should be tested.
+
+Examples:
+
+Consumer-related questions
+Employment-related questions
+Property-related questions
+Cybercrime-related questions
+General legal-information questions
+Ambiguous questions
+Questions outside the system's supported scope
+
+The responses should be checked for relevance, clarity, source grounding, and appropriate limitations.
+
+E. Database Testing
+
+Database testing verifies:
+
+Data insertion
+Data retrieval
+Data updating
+Data deletion
+User-query history
+Data consistency
+Database security
+F. Security Testing
+
+Security testing checks:
+
+Login authentication
+Password protection
+Authorization
+Input validation
+Session management
+Unauthorized access
+Protection of user information
+G. Usability Testing
+
+The application is tested from a user's perspective.
+
+The following are evaluated:
+
+Ease of navigation
+Readability
+Button placement
+Mobile responsiveness
+Clarity of instructions
+Ease of asking questions
+Ease of generating documents
+H. Performance Testing
+
+The system is checked for:
+
+Response time
+Page-loading speed
+Database performance
+AI response time
+Multiple-user handling
+4. Sample Test Cases
+Test Case	Input/Action	Expected Result	Status
+TC01	Valid registration	User account created	Pass
+TC02	Invalid login	Error message shown	Pass
+TC03	Valid login	Dashboard displayed	Pass
+TC04	Search legal topic	Relevant information displayed	Pass
+TC05	Submit legal query	General legal information returned	Pass
+TC06	Generate document	Document created successfully	Pass
+TC07	Open resource	Correct resource page opened	Pass
+TC08	Unauthorized page access	Access denied	Pass
+TC09	Empty input	Validation message displayed	Pass
+TC10	Mobile access	Responsive interface displayed	Pass
+5. Bug Identification and Fixing
+
+During testing, errors are recorded and classified.
+
+Example
+Bug Identified
+      ↓
+Record Bug
+      ↓
+Find Cause
+      ↓
+Fix Bug
+      ↓
+Retest
+      ↓
+Confirm Resolution
+
+Common bugs may include:
+
+Incorrect login validation
+Database connection errors
+Incorrect search results
+Document-formatting problems
+Broken resource links
+UI display problems
+6. Testing Results
+
+After completing testing, the development team verifies that:
+
+Core modules function correctly.
+User input is properly validated.
+Database operations work correctly.
+AI responses are appropriately grounded and presented as general information.
+Documents are generated correctly.
+Official resources are accessible.
+Security controls function as intended.
+The interface is easy to use.
+7. Final Validation
+
+Before deployment, the complete application is tested as a single system.
+
+Requirements
+     ↓
+Test Results
+     ↓
+Bug Fixes
+     ↓
+Retesting
+     ↓
+Final System Validation
+     ↓
+Ready for Demonstration
+8. Conclusion
+
+The Project Testing Phase ensures that Legalease is functional, secure, reliable, and user-friendly. Through unit, integration, functional, AI-response, database, security, usability, and performance testing, errors can be identified and corrected before the final demonstration and deployment.

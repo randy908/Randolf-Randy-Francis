@@ -1,1 +1,140 @@
+Project Demonstration Phase
+Legalease – Project Demonstration Phase
 
+The Project Demonstration Phase is the stage where the developed Legalease system is presented to users, teachers, evaluators, or project guides to show how the proposed system works in practice.
+
+1. Introduction
+
+Legalease is a smart legal information platform that helps users understand basic legal information in simple language. During the demonstration, the major features, user interface, workflow, and expected outputs of the system are shown.
+
+2. Demonstration Objectives
+
+The demonstration aims to:
+
+Show the working of the Legalease application.
+Explain the major modules and features.
+Demonstrate how a user interacts with the system.
+Show how legal questions are processed.
+Demonstrate document/template generation.
+Show links to relevant official legal resources.
+Explain the benefits and limitations of the system.
+3. Demonstration Flow
+Step 1 – User Registration/Login
+
+The user opens Legalease and creates an account or logs into an existing account.
+
+Login / Register
+       ↓
+Legalease Dashboard
+Step 2 – Enter a Legal Query
+
+The user enters a question in simple language.
+
+Example:
+
+“I purchased a product online, but the seller has not delivered it. What can I do?”
+
+Step 3 – Query Processing
+
+The system analyzes the user's question using NLP/AI and identifies the relevant category.
+
+User Question
+      ↓
+Natural Language Processing
+      ↓
+Legal Category Identification
+      ↓
+Relevant Information Retrieval
+Step 4 – Display Information
+
+The system provides a simple explanation of the relevant legal topic and possible general steps the user may consider.
+
+The system should clearly indicate that the information is general information and not a substitute for professional legal advice.
+
+Step 5 – Official Resources
+
+The application provides links to appropriate official government/legal resources where the user can obtain further information or submit a complaint.
+
+Step 6 – Document Generation
+
+If appropriate, the user can select a document template.
+
+For example:
+
+Select Document
+      ↓
+Enter Required Details
+      ↓
+Generate Document
+      ↓
+Preview / Download
+4. Main Modules Demonstrated
+1. User Module
+Registration
+Login
+User profile
+Query history
+2. AI Legal Assistant
+Accepts natural-language questions
+Identifies the legal topic
+Provides understandable explanations
+3. Legal Information Module
+Search legal topics
+Display relevant information
+Categorize legal issues
+4. Document Module
+Select templates
+Enter details
+Generate basic documents
+5. Resource Module
+Government websites
+Legal-aid resources
+Complaint/reporting portals
+Important contact information
+6. Admin Module
+Manage users
+Manage legal information
+Manage document templates
+Update resources
+5. Sample Demonstration Scenario
+
+Scenario: A user wants information about an online shopping dispute.
+
+Input:
+
+“I paid for a product online, but I did not receive it.”
+
+System Output:
+
+Category:
+Consumer Issue
+
+General Information:
+Your issue may relate to consumer protection and
+online-shopping grievance procedures.
+
+Possible Next Steps:
+1. Keep the order confirmation and payment records.
+2. Contact the seller/platform.
+3. Check the applicable consumer grievance process.
+4. Use the relevant official complaint mechanism if necessary.
+
+Official Resources:
+[Relevant Government Resource]
+
+Note:
+This information is for general educational purposes.
+For case-specific legal advice, consult a qualified lawyer.
+6. Expected Demonstration Result
+
+At the end of the demonstration, the evaluator should be able to understand that Legalease can:
+
+Accept legal questions in natural language.
+Categorize basic legal issues.
+Present legal information in simple language.
+Provide relevant official resources.
+Assist with basic document preparation.
+Provide a clear and easy-to-use interface.
+7. Conclusion
+
+The Legalease Project Demonstration Phase validates the main concept of the project by showing the complete user journey from entering a legal problem to receiving general information, resources, and document assistance. It demonstrates how AI and web technologies can be combined to make legal information more accessible and understandable.

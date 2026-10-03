@@ -1,1 +1,181 @@
 Requirement Analysis Phase
+Legalease – Requirement Analysis Phase
+
+The Requirement Analysis Phase is the stage where the needs of the users and the functions required for the Legalease system are identified, studied, and documented. It helps define exactly what the system should do before the design and development stages begin.
+
+1. Objective
+
+The main objectives are:
+
+Identify the problems faced by users when accessing legal information.
+Understand user expectations.
+Define the features of Legalease.
+Identify hardware and software requirements.
+Define functional and non-functional requirements.
+Establish the scope and limitations of the system.
+2. User Requirements
+
+The system should allow users to:
+
+Create an account and log in.
+Search for legal information.
+Ask questions using simple language.
+Receive understandable general legal information.
+Identify the category of a legal issue.
+Access relevant official resources.
+Use basic document templates.
+Generate and download documents.
+View previous queries where appropriate.
+3. Functional Requirements
+1. User Registration and Login
+
+The system should allow users to securely register and log in.
+
+2. Legal Search
+
+Users should be able to search legal topics using keywords or questions.
+
+3. AI Legal Assistant
+
+The system should process natural-language questions and provide general, source-grounded legal information.
+
+4. Legal Issue Categorization
+
+The system should categorize queries into areas such as:
+
+Consumer
+Employment
+Property
+Cybercrime
+Family
+Civil matters
+Criminal matters
+5. Document Generation
+
+Users should be able to select suitable templates, enter required details, and generate basic documents.
+
+6. Legal Resources
+
+The system should provide relevant official government and legal-service resources.
+
+7. Query History
+
+Logged-in users can view their previous questions and responses, subject to privacy controls.
+
+8. Admin Management
+
+Administrators should be able to manage:
+
+Legal information
+Categories
+Document templates
+Official resources
+User accounts
+4. Non-Functional Requirements
+Performance
+
+The system should respond to normal user requests within a reasonable time.
+
+Security
+
+User accounts and personal information should be protected through secure authentication and appropriate access controls.
+
+Usability
+
+The interface should be simple enough for users without legal or technical knowledge.
+
+Reliability
+
+The application should provide consistent results and handle errors properly.
+
+Scalability
+
+The system should be capable of supporting additional users, legal topics, and features.
+
+Maintainability
+
+The system should allow legal information and resources to be updated easily.
+
+Accessibility
+
+The application should use clear language, readable text, and responsive layouts.
+
+5. Hardware Requirements
+Minimum Requirements
+Computer/Laptop
+4 GB RAM or higher
+Adequate storage
+Internet connection
+Keyboard and mouse
+Modern web browser
+Server Requirements
+
+Depending on the deployment method:
+
+Application server
+Database server
+Adequate storage
+Reliable internet/network connection
+6. Software Requirements
+Component	Requirement
+Operating System	Windows / Linux / macOS
+Frontend	HTML, CSS, JavaScript
+Backend	Python / Java / Node.js
+Database	MySQL / PostgreSQL
+Browser	Chrome / Edge / Firefox
+Development Tool	VS Code / IntelliJ / similar IDE
+AI Component	LLM/NLP-based system
+7. Data Requirements
+
+The system may need to maintain:
+
+User account information
+Legal categories
+Legal-information records
+Official source references
+User queries
+Generated-document information
+Document templates
+Resource links
+
+Legal information should be obtained from reliable and preferably official sources, with source details and update dates maintained where possible.
+
+8. Security Requirements
+
+Legalease should provide:
+
+Secure authentication
+Password hashing
+Role-based access
+Input validation
+Secure database access
+HTTPS
+Protection against unauthorized access
+Appropriate handling and minimization of personal data
+9. System Constraints
+
+The project may have certain limitations:
+
+Laws and regulations can change over time.
+AI-generated information can contain errors if not properly grounded.
+Not every legal problem can be handled automatically.
+Some cases require advice from a qualified legal professional.
+Internet access may be required for certain features.
+The availability of reliable legal data can affect system performance.
+10. Requirement Analysis Output
+
+At the end of this phase, the project team should have a clear Software Requirements Specification (SRS) containing:
+
+Project objectives
+User requirements
+Functional requirements
+Non-functional requirements
+Hardware requirements
+Software requirements
+Data requirements
+Security requirements
+System constraints
+Project scope
+11. Conclusion
+
+The Requirement Analysis Phase establishes a clear foundation for Legalease by identifying what the users need and what the system must provide. The requirements collected during this phase are then used to create the System Design, followed by development, testing, demonstration, and documentation.

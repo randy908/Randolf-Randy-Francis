@@ -1,1 +1,189 @@
 Project Design Phase Phase
+Legalease – Project Design Phase
+
+The Project Design Phase focuses on converting the ideas identified during brainstorming into a clear system structure, user interface, database design, and technical architecture for the Legalease project.
+
+1. Objective of the Design Phase
+
+The main objectives are:
+
+Design a simple and user-friendly interface.
+Define the major modules of Legalease.
+Design the database structure.
+Define how users interact with the system.
+Plan the AI/legal information processing workflow.
+Establish the technology and system architecture.
+2. System Architecture
+
+The proposed Legalease architecture consists of the following layers:
+
+┌─────────────────────────────┐
+│           USER              │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│      Web / Mobile UI        │
+└──────────────┬──────────────┘
+               ↓
+┌─────────────────────────────┐
+│      Application Server     │
+│   Authentication & APIs     │
+└──────────────┬──────────────┘
+               ↓
+       ┌───────┴────────┐
+       ↓                ↓
+┌─────────────┐  ┌─────────────┐
+│ AI/NLP      │  │ Legal       │
+│ Processing  │  │ Database    │
+└──────┬──────┘  └──────┬──────┘
+       └────────┬───────┘
+                ↓
+       ┌─────────────────┐
+       │ Response /      │
+       │ Resources       │
+       └─────────────────┘
+3. Main Modules
+A. User Module
+User registration
+Login/logout
+Profile management
+Query history
+B. Legal Assistant Module
+Accept legal questions
+Analyze user queries
+Identify relevant legal categories
+Provide general legal information in simple language
+C. Legal Information Module
+Legal topic search
+Laws and regulations
+Frequently asked questions
+Categorized information
+D. Document Module
+Document templates
+User input forms
+Document generation
+Preview and download
+E. Resource Module
+Government resources
+Legal-aid information
+Complaint portals
+Important legal contacts
+F. Admin Module
+Manage users
+Add/update legal information
+Manage document templates
+Manage official resources
+4. User Interface Design
+
+The interface should be simple, clean and easy to navigate.
+
+Home Page
+          LEGALEASE
+  Smart Legal Information Platform
+
+ ┌──────────────────────────────┐
+ │  What is your legal issue?   │
+ │                              │
+ │  [ Ask your question... ]    │
+ │                              │
+ │        [ ASK LEGALEASE ]     │
+ └──────────────────────────────┘
+
+ [Legal Topics] [Documents] [Resources]
+Dashboard
+
+The dashboard can contain:
+
+Ask a Legal Question
+Search Legal Topics
+Generate Documents
+My Previous Queries
+Legal Resources
+Help & Support
+5. Database Design
+
+A relational database can be used to store system information.
+
+Users Table
+Field	Description
+User_ID	Unique user ID
+Name	User name
+Email	Email address
+Password	Encrypted password
+Phone	Contact number
+Legal_Information Table
+Field	Description
+Legal_ID	Unique ID
+Category	Legal category
+Title	Topic title
+Description	Legal information
+Source	Official source
+Last_Updated	Update date
+Queries Table
+Field	Description
+Query_ID	Query ID
+User_ID	User ID
+Question	User's question
+Category	Identified category
+Response	Generated response
+Date	Query date
+Documents Table
+Field	Description
+Document_ID	Document ID
+Document_Name	Template name
+Category	Document category
+Template	Document template
+6. Technology Design
+Component	Proposed Technology
+Front End	HTML, CSS, JavaScript
+UI Framework	Bootstrap / React
+Back End	Python / Java / Node.js
+Database	MySQL
+AI/NLP	LLM + NLP techniques
+API	REST API
+Hosting	Cloud server
+7. Query Processing Design
+
+The legal assistant follows this process:
+
+User enters question
+        ↓
+Text preprocessing
+        ↓
+Identify keywords/context
+        ↓
+Legal category detection
+        ↓
+Retrieve relevant information
+        ↓
+Generate simple explanation
+        ↓
+Display answer + official resources
+8. Security Design
+
+Security is important because users may enter sensitive information.
+
+The system should include:
+
+Secure login
+Password hashing
+Input validation
+Access control
+HTTPS
+Secure database access
+Minimal collection of personal information
+Protection against unauthorized access
+9. Design Principles
+
+The Legalease design should follow these principles:
+
+Simple – Easy for non-technical users.
+Accessible – Information should be understandable.
+Reliable – Prefer verified and official legal sources.
+Transparent – Show sources and update dates.
+Secure – Protect user information.
+Responsive – Work on computers and mobile devices.
+Responsible AI – Clearly distinguish general information from professional legal advice.
+10. Final Design Outcome
+
+The Project Design Phase produces the blueprint for the Legalease system. It defines the interface, modules, database, architecture, security, and information flow before actual development begins. This design provides a clear foundation for the next stage: Project Development/Implementation.
